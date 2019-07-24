@@ -1,0 +1,158 @@
+body{
+    background-color: lightyellow;
+    margin: 20px 100px 20px 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/*quotation on top of page*/
+.quo p {
+    text-align: center;
+    color: #2a5599;
+    font-style: italic;
+    font-size: 25px;
+}
+
+img{
+    align-content: center;
+}
+
+p{text-align: justify}
+/*CENTRE BANNER*/
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/* NAVIGATIONS*/
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    background-color: #9dadc6;
+}
+
+li{
+    float:left;
+    margin: 20px;
+}
+
+li a{
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding:inherit;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #546caf;
+}
+/*EVENTS*/
+.event{ text-align: center;}
+.event h3{ color:#5d7baa; font-size: 20px;}
+/* MEET THE TEAM*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: block;
+    background-color: aliceblue;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rbga (0,0,0,0.2);      
+}
+
+.column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*
+.container{
+    padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+/*TESTIMONY*/
+
+.container{
+    border: 2px solid #ccc;
+    background-color: #cfd7e3;
+    border-radius: 5px;
+    margin: 16px 0;
+    padding: 16px;
+    text-align: center;
+}
+
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;  
+}
+
+.container span{
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color:#9dadc6;
+    padding: 10px;
+}
+
+/* PRODUCTS PAGE*/
+
+.block{
+    float:left;
+    width: 18%;
+    background-color: #cfd7e3;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid #9dadc6;
+    text-align: center;
+}
+.block p{
+    text-align: center;
+    font-size: 20px;
+    color: palevioletred;
+}
+.block img{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
